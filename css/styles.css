@@ -1,0 +1,177 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+/* Headings */
+
+.title-heading {
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin: 0 20px;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%
+}
+
+#title {
+  color: white;
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+/* Features */
+.features-icon {
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-div {
+  margin: 3% auto;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#features {
+  position: relative;
+  background-color: #fff;
+  padding: 7% 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Testimonials Section */
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 18%;
+}
+
+/* Press Section */
+
+.press-images {
+  width: 10%;
+  margin: 0 20px 70px;
+}
+
+#press {
+  background-color: #ef8172;
+
+}
+
+/* Pricing Section */
+
+.col-card {
+  padding: 3% 2%;
+}
+
+.pricing-container {
+  padding: 5% 30px;
+}
+
+#pricing {
+  margin: 5% 5%;
+}
+
+/* Call To Action Section */
+
+.cta-header {
+  color: #fff;
+  font-size: 3.3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 8% 15% 5%;
+}
+
+/* Footer Section */
+
+.footer-icon {
+  /* color: #8f8f8f; */
+  padding: 20px 10px;
+}
+
+#footer {
+  padding-top: 10%;
+}
